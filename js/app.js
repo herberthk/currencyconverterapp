@@ -92,7 +92,7 @@
     }
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('../https://herberthk.github.io/currencyconverterapp/sw.js')
+            .register('../sw.js')
             .then(() => {
                 console.log('Service Worker Registered');
             });
