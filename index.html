@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Currency converter, Progresive web apps, Offline applications, ALC experiments, Google scholars, Google Africa scalarship"
+    />
+    <meta name="author" content="Herbert Kavuma" />
+    <meta name="email" content="herberthtk100@gmail.com">
+    <title>Currency converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* body{ */
+
+        /* padding: 3rem; */
+
+        /* } */
+
+        header {
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            padding: 1rem;
+            color: #fff;
+            background: hsl(180, 100%, 25%);
+            text-transform: uppercase;
+        }
+
+        main {
+            /* border: 1px solid red; */
+            width: 100%;
+        }
+
+        main ul {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 2rem 0;
+        }
+
+        main ul li {
+            list-style: none;
+            width: calc(100%/3);
+        }
+
+        #number {
+            width: 100%;
+            padding: .5rem;
+        }
+
+        #from,
+        #to {
+            /* margin-left: 2rem; */
+            padding: .5rem;
+            width: 100%;
+        }
+
+        #answer {
+            /* border: 1px solid blue; */
+            width: 100%;
+            font-weight: bold;
+            color: rgba(0, 0, 0, .7);
+            padding: .5rem;
+        }
+
+        #convert {
+            padding: 1rem;
+            color: #fff;
+            background: hsl(180, 100%, 25%);
+            text-transform: uppercase;
+            width: 100%;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Currency converter</h1>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <input type="number" placeholder="Enter amount you want to convert" id="number">
+            </li>
+            <li>
+                <select id="from"></select>
+            </li>
+            <li>
+                <select id="to"></select>
+            </li>
+            <li>
+                <p id="answer"></p>
+            </li>
+        </ul>
+        <button id="convert">CONVERT CURRENCE</button>
+    </main>
+    <script src="https://herberthk.github.io/localforage-1.7.2.min.js"></script>
+    <script src="https://herberthk.github.io/app.js"></script>
+</body>
+
+</html>
