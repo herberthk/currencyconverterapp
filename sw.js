@@ -1,8 +1,8 @@
 let cacheName = 'currency_converter-v1',
   dataCacheName = 'currency_data-v1',
   filesToCache = ['/',
-    'https://herberthk.github.io/currencyconverterapp/js/app.js',
-    'https://herberthk.github.io/currencyconverterapp/js/localforage-1.7.2.min.js'
+    'currencyconverterapp/js/app.js',
+    'currencyconverterapp/js/localforage-1.7.2.min.js'
   ];
 const curencyApiUrl = 'https://free.currencyconverterapi.com/api/v5/';
 
