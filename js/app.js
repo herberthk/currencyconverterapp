@@ -92,7 +92,7 @@
     }
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('../sw.js')
+            .register('../currencyconverterapp/sw.js')
             .then(() => {
                 console.log('Service Worker Registered');
             });
