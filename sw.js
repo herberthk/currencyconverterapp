@@ -1,5 +1,5 @@
-let cacheName = 'currency_converter-v1',
-  dataCacheName = 'currency_data-v1',
+let cacheName = 'currency_converter-v2',
+  dataCacheName = 'currency_data-v2',
   filesToCache = ['https://herberthk.github.io/currencyconverterapp/',
     'https://herberthk.github.io/currencyconverterapp/js/app.js',
     'https://herberthk.github.io/currencyconverterapp/js/localforage-1.7.2.min.js'
